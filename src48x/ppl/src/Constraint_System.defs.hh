@@ -197,7 +197,7 @@ public:
   class const_iterator
     : public std::iterator<std::forward_iterator_tag,
 			   Constraint,
-			   ptrdiff_t,
+			   std::ptrdiff_t,
 			   const Constraint*,
 			   const Constraint&> {
   public:
